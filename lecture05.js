@@ -6,7 +6,7 @@
 var a = 100; //int
 var b = 3.14; //float
 var c = "hello"; //string
-var d = "a"; //char
+var d = "a"; //string
 var e = true, d = false; //boolean
 
 console.log(a,typeof(a));
