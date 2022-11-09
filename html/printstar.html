@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Star</title>
+</head>
+<body>
+    <h3>Print Star</h3>
+    <hr>
+    <script>
+        function f(n){
+            let m = parseInt(n);
+            if(isNaN(m) || m<1 ){
+                alert("Error: Invalid number");
+                return;
+            }
+            for(let i = 0; i<m; i++){
+                for(let j = 0; j<=i; j++){
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        }
+    </script>
+    <script>
+        let n = prompt("Input the number : ");
+        f(n);
+    </script>
+</body>
+</html>
